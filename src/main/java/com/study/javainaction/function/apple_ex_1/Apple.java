@@ -4,8 +4,8 @@ import lombok.Getter;
 
 @Getter
 public class Apple {
-    private int weight;
-    private Color color;
+    private final Integer weight;
+    private final Color color;
 
     public Apple(int weight, Color color) {
         this.weight = weight;

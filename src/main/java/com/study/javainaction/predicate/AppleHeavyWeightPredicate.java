@@ -1,4 +1,6 @@
-package com.study.javainaction.function.apple_ex_1;
+package com.study.javainaction.predicate;
+
+import com.study.javainaction.function.apple_ex_1.Apple;
 
 public class AppleHeavyWeightPredicate implements ApplePredicate {
 

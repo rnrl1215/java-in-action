@@ -1,5 +1,7 @@
 package com.study.javainaction.function.apple_ex_1;
 
+import com.study.javainaction.predicate.ApplePredicate;
+
 import java.util.ArrayList;
 import java.util.List;
 
