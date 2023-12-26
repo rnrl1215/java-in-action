@@ -6,7 +6,7 @@ import com.study.javainaction.function.apple_ex_1.Color;
 import java.util.function.Predicate;
 
 public class Predicates {
-    public void notRed() {
+    public Predicate<Apple> notRed() {
         Predicate<Apple> redApple = new Predicate<Apple>() {
             @Override
             public boolean test(Apple apple) {
@@ -14,6 +14,6 @@ public class Predicates {
             }
         };
 
-        Predicate<Apple> negate = redApple.negate();
+        return redApple.negate();
     }
 }
